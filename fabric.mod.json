@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nohittingfriends",
+  "version": "1.0.1",
+  "name": "NoHittingFriends",
+  "description": "Prevents attacking friends and protected entities with visual crosshair feedback (currently under development)",
+  "authors": [
+    "BalancingLight"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nohittingfriends.NoHittingFriendsMod"
+    ]
+  },
+  "mixins": [
+    "nohittingfriends.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
